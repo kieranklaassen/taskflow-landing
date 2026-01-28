@@ -64,7 +64,7 @@ function Hero() {
 
 function Features() {
   return (
-    <section className="py-20 lg:py-32 bg-white">
+    <section id="get-started" className="py-20 lg:py-32 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
@@ -99,7 +99,7 @@ function Features() {
 
 function CallToAction() {
   return (
-    <section className="py-20 lg:py-32 bg-gray-900">
+    <section id="try-free" className="py-20 lg:py-32 bg-gray-900">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-white">
           Start organizing your life today
